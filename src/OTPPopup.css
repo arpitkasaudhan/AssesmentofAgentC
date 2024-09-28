@@ -1,0 +1,68 @@
+/* Reset body and html to remove default margins/paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .otp-popup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d3d3d3; /* Same background as the login page */
+  }
+  
+  .otp-popup {
+    width: 400px; /* Adjust width as needed */
+    background-color: #fff;
+    border-radius: 15px; /* Rounded corners */
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded corners for input */
+    width: 100%;
+  }
+  
+  input.input-error {
+    border-color: red;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #0091ff;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .verify-btn {
+    padding: 12px 20px;
+    background-color: #6d0cd2;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners for button */
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .verify-btn:hover {
+    background-color: #5a0aa8;
+  }
+  
